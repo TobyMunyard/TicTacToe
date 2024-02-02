@@ -48,8 +48,9 @@ public class TicTacToe{
                 System.out.print("|");
                 if(board[i][j] == '\u0000'){
                     System.out.print(" ");
-                }
+                }else{
                 System.out.print(board[i][j]);
+                }
             }
             System.out.print("|");
             System.out.println();
